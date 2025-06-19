@@ -1,67 +1,75 @@
 {
-  "scenario_id": "SCN001",
-  "scenario_description": "Plague Marines 5 นาย ยิง Boltgun ใส่ Ork Boyz 10 นาย ที่ยืนในที่โล่ง",
+  "scenario_id": "SCN_MBH_LR_MM",
+  "scenario_description": "Myphitic Blight-haulers 2 คัน ยิง Multi-Melta ใส่ Chaos Land Raider ในระยะครึ่ง (ภายใน 9 นิ้ว)",
   "attacker_info": {
-    "unit_id": "unit_dg_plague_marines",
-    "model_count": 5,
-    "weapon_id": "wpn_boltgun",
+    "unit_id": "unit_dg_myphitic_blight_hauler",
+    "model_count": 2,
+    "weapon_id": "wpn_multi_melta",
     "relevant_stats": {
-      "BS": "3+" 
+      "BS": "3+",
+      "S": "9",
+      "AP": "-4",
+      "D": "D6",
+      "abilities": ["Melta 2", "Lethal Hits"],
+      "unit_abilities": ["Tank Hunters"]
     }
   },
   "target_info": {
-    "unit_id": "unit_ork_boyz", // สมมติว่ามี ID นี้
-    "model_count": 10,
+    "unit_id": "unit_dg_chaos_land_raider",
+    "model_count": 1,
     "relevant_stats": {
-      "T": "5",
-      "SV": "6+",
-      "W": "1",
-      "special_rules": [] // เช่น Feel No Pain
+      "T": "12",
+      "SV": "2+",
+      "W": "16",
+      "special_rules": []
     }
   },
   "conditions": {
     "target_in_cover": false,
     "attacker_remained_stationary": true,
-    "target_is_afflicted": true // สมมติว่าเป้าหมายติดโรค
+    "firing_at_half_range": true,
+    "target_type": "VEHICLE"
   },
   "calculation_steps": [
     {
       "step": 1,
       "name": "Number of Attacks",
-      "calculation": "5 models * 2 attacks per boltgun = 10 attacks",
-      "result": 10
+      "explanation": "Multi-Melta มี 2 Attacks ต่ออาวุธ และมี Myphitic Blight-hauler 2 คัน",
+      "calculation": "2 Myphitic Blight-haulers * 2 attacks/Multi-Melta = 4 attacks",
+      "result": 4
     },
     {
       "step": 2,
-      "name": "Hit Roll (BS 3+)",
-      "explanation": "ต้องการผล 3, 4, 5, 6 เพื่อให้โดน มีโอกาส 4/6 หรือ 66.7%",
-      "calculation": "10 attacks * (4/6) = 6.67 hits",
-      "result": 6.67
+      "name": "Hit Roll (BS 3+ with Tank Hunters)",
+      "explanation": "BS 3+ ได้รับ +1 to Hit จาก Tank Hunters เมื่อโจมตี VEHICLE ทำให้ต้องการ 2+ เพื่อโดน (ผล 2, 3, 4, 5, 6) มีโอกาส 5/6",
+      "calculation": "4 attacks * (5/6) = 3.33 hits",
+      "result": 3.33
     },
     {
       "step": 3,
-      "name": "Wound Roll (S4 vs T5)",
-      "explanation": "Strength (4) น้อยกว่า Toughness (5) ต้องการผล 5, 6 เพื่อให้เกิดแผล มีโอกาส 2/6 หรือ 33.3%",
-      "calculation": "6.67 hits * (2/6) = 2.22 wounds",
-      "result": 2.22
+      "name": "Wound Roll (S9 vs T12 with Tank Hunters)",
+      "explanation": "Strength (9) น้อยกว่า Toughness (12) ปกติต้องการ 5+ แต่ได้รับ +1 to Wound จาก Tank Hunters ทำให้ต้องการ 4+ เพื่อสร้างบาดแผล (ผล 4, 5, 6) มีโอกาส 3/6",
+      "calculation": "Total Hits: 3.33. Critical Hits (Lethal Hits): 3.33 * (1/6) = 0.55 lethal hits (auto wound). Non-critical Hits: 3.33 * (5/6) = 2.78 non-critical hits. Normal Wounds (4+): 2.78 * (3/6) = 1.39 wounds. Total Wounds: 0.55 + 1.39 = 1.94 wounds.",
+      "result": 1.94
     },
     {
       "step": 4,
-      "name": "Save Roll (SV 6+ vs AP 0)",
-      "explanation": "เป้าหมายเซฟที่ 6+ ไม่มี AP จากอาวุธ เป้าหมายจะเซฟพลาดเมื่อทอยได้ 1-5 มีโอกาสพลาด 5/6 หรือ 83.3%",
-      "calculation": "2.22 wounds * (5/6) = 1.85 failed saves",
-      "result": 1.85
+      "name": "Save Roll (SV 2+ vs AP -4)",
+      "explanation": "Save เป้าหมาย 2+ ถูกลดด้วย AP -4 เหลือ 6+ (2 + 4) เป้าหมายเซฟพลาดเมื่อทอยได้ 1-5 มีโอกาสพลาด 5/6",
+      "calculation": "1.94 wounds * (5/6) = 1.62 failed saves",
+      "result": 1.62
     },
     {
       "step": 5,
-      "name": "Damage Dealt (D 1)",
-      "explanation": "แต่ละ failed save สร้างความเสียหาย 1 damage",
-      "calculation": "1.85 failed saves * 1 damage = 1.85 damage",
-      "result": 1.85
+      "name": "Damage Dealt (D D6+2 from Melta 2)",
+      "explanation": "แต่ละ failed save สร้างความเสียหาย D6+2 Damage (ค่าเฉลี่ย D6 คือ 3.5, ดังนั้น 3.5 + 2 = 5.5 Damage ต่อ Wound ที่ผ่าน)",
+      "calculation": "1.62 failed saves * 5.5 damage/failed save = 8.91 damage",
+      "result": 8.91
     }
   ],
   "expected_outcome": {
-    "average_damage": 1.85,
-    "average_models_killed": "1.85 models (เป้าหมายมี 1 Wounds ต่อโมเดล)"
+    "average_damage": 8.91,
+    "average_models_killed": "0.56 models (เป้าหมายมี 16 Wounds ต่อโมเดล และจะเสียหายเฉลี่ย 8.91 wounds ซึ่งไม่เพียงพอที่จะทำลาย Land Raider)",
+    "notes": "Land Raider มี 16 Wounds. ความเสียหายเฉลี่ย 8.91 Wounds ไม่เพียงพอที่จะทำลาย Land Raider ในการโจมตีครั้งนี้"
   }
 }
