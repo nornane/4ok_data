@@ -1,0 +1,58 @@
+{
+  "id": "unit_dg_biologus_putrifier",
+  "unit_name": "Biologus Putrifier",
+  "keywords": [
+    "Faction: Death Guard",
+    "Character",
+    "Infantry",
+    "Grenades",
+    "Chaos",
+    "Nurgle",
+    "Biologus Putrifier"
+  ],
+  "stats_profile": [
+    {
+      "model_name": "Biologus Putrifier",
+      "M": "5\"",
+      "T": "6",
+      "SV": "3+",
+      "W": "4",
+      "LD": "6+",
+      "OC": "1"
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Leader",
+      "Deadly Demise 1"
+    ],
+    "faction": "Nurgle's Gift (Aura)",
+    "unit_specific": [
+      {
+        "ability_name": "Extraction of Fresh Disease",
+        "description": "The first time this model's unit destroys an enemy unit as a result of a melee attack, until the end of the battle, add 6 to the Objective Control characteristic of this model."
+      },
+      {
+        "ability_name": "Foul Infusion",
+        "description": "While this model is leading a unit, weapons equipped by models in that unit have the [Lethal Hits] ability. In addition, each time a model in that unit makes an attack, a Critical Hit is scored on an unmodified roll of 5+, instead of only on a 6."
+      }
+    ]
+  },
+  "composition_and_wargear": {
+    "unit_composition": "This unit contains 1 Biologus Putrifier.",
+    "default_wargear_text": "This model is equipped with: Hyper blight grenades, injector pistol, plague knives.",
+    "wargear_options": [],
+    "referenced_weapon_ids": [
+      "wpn_hyper_blight_grenades",
+      "wpn_injector_pistol",
+      "wpn_plague_knives"
+    ]
+  },
+  "leader": {
+    "can_lead_text": "This model can be attached to the following unit:",
+    "can_lead_units": [
+      "Plague Marines"
+    ],
+    "special_rule": "You can attach this model to a Plague Marines unit, even if one other Leader unit has already been attached to it (you cannot attach more than one of the same Leader to the same unit). If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths."
+  }
+}

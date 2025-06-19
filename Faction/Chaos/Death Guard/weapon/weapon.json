@@ -1,0 +1,1153 @@
+[
+  {
+    "id": "wpn_armoured_feet",
+    "weapon_name": "Armoured feet",
+    "type": "Melee",
+    "profiles": [
+      {
+        "mode": "Standard",
+        "range": "Melee",
+        "A": "4",
+        "WS": "3+",
+        "S": "6",
+        "AP": "0",
+        "D": "1",
+        "keywords": "-"
+      }
+    ]
+  },
+  {
+    "id": "wpn_armoured_tracks",
+    "weapon_name": "Armoured tracks",
+    "type": "Melee",
+    "profiles": [
+      {
+        "mode": "Standard",
+        "range": "Melee",
+        "A": "6",
+        "WS": "4+",
+        "S": "8",
+        "AP": "0",
+        "D": "1",
+        "keywords": "-"
+      }
+    ]
+  },
+  {
+    "id": "wpn_avenger_chaincannon",
+    "weapon_name": "Avenger chaincannon",
+    "type": "Ranged",
+    "profiles": [
+      {
+        "mode": "Standard",
+        "range": "24\"",
+        "A": "12",
+        "BS": "2+",
+        "S": "6",
+        "AP": "-1",
+        "D": "1",
+        "keywords": "-"
+      }
+    ]
+  },
+  {
+    "id": "wpn_battle_cannon",
+    "weapon_name": "Battle cannon",
+    "type": "Ranged",
+    "profiles": [
+      {
+        "mode": "Standard",
+        "range": "48\"",
+        "A": "D6+3",
+        "BS": "3+",
+        "S": "10",
+        "AP": "-1",
+        "D": "3",
+        "keywords": "Blast, Lethal Hits"
+      }
+    ]
+  },
+  {
+    "id": "wpn_bile_spurt",
+    "weapon_name": "Bile spurt",
+    "type": "Ranged",
+    "profiles": [
+      {
+        "mode": "Standard",
+        "range": "12\"",
+        "A": "3",
+        "BS": "3+",
+        "S": "5",
+        "AP": "0",
+        "D": "1",
+        "keywords": "Lethal Hits"
+      }
+    ]
+  },
+  {
+    "id": "wpn_blight_launcher",
+    "weapon_name": "Blight launcher",
+    "type": "Ranged",
+    "profiles": [
+      {
+        "mode": "Standard",
+        "range": "24\"",
+        "A": "D3",
+        "BS": "3+",
+        "S": "6",
+        "AP": "-1",
+        "D": "2",
+        "keywords": "Blast, Lethal Hits"
+      }
+    ]
+  },
+  {
+    "id": "wpn_bolt_pistol",
+    "weapon_name": "Bolt pistol",
+    "type": "Ranged",
+    "profiles": [
+      {
+        "mode": "Standard",
+        "range": "12\"",
+        "A": "1",
+        "BS": "3+",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "keywords": "Lethal Hits, Pistol"
+      }
+    ]
+  },
+  {
+    "id": "wpn_boltgun",
+    "weapon_name": "Boltgun",
+    "type": "Ranged",
+    "profiles": [
+      {
+        "mode": "Standard",
+        "range": "24\"",
+        "A": "2",
+        "BS": "3+",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "keywords": "Lethal Hits"
+      }
+    ]
+  },
+  {
+    "id": "wpn_bubotic_blade",
+    "weapon_name": "Bubotic blade",
+    "type": "Melee",
+    "profiles": [
+      {
+        "mode": "Standard",
+        "range": "Melee",
+        "A": "3",
+        "WS": "3+",
+        "S": "5",
+        "AP": "-2",
+        "D": "2",
+        "keywords": "Lethal Hits"
+      }
+    ]
+  },
+  {
+    "id": "wpn_bubotic_weapons",
+    "weapon_name": "Bubotic weapons",
+    "type": "Melee",
+    "profiles": [
+      {
+        "mode": "Standard",
+        "range": "Melee",
+        "A": "4",
+        "WS": "3+",
+        "S": "5",
+        "AP": "-2",
+        "D": "1",
+        "keywords": "Lethal Hits"
+      }
+    ]
+  },
+  {
+    "id": "wpn_close_combat_weapon",
+    "weapon_name": "Close combat weapon",
+    "type": "Melee",
+    "profiles": [
+      {
+        "mode": "Standard",
+        "range": "Melee",
+        "A": "4",
+        "WS": "3+",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "keywords": "-"
+      }
+    ]
+  },
+  {
+    "id": "wpn_combi_bolter",
+    "weapon_name": "Combi-bolter",
+    "type": "Ranged",
+    "profiles": [
+      {
+        "mode": "Standard",
+        "range": "24\"",
+        "A": "2",
+        "BS": "3+",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "keywords": "Lethal Hits, Rapid Fire 2"
+      }
+    ]
+  },
+  {
+    "id": "wpn_combi_weapon",
+    "weapon_name": "Combi-weapon",
+    "type": "Ranged",
+    "profiles": [
+      {
+        "mode": "Standard",
+        "range": "24\"",
+        "A": "1",
+        "BS": "4+",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "keywords": "Anti-INFANTRY 4+, Devastating Wounds, Rapid Fire 1"
+      }
+    ]
+  },
+  {
+    "id": "wpn_corrupted_staff",
+    "weapon_name": "Corrupted staff",
+    "type": "Melee",
+    "profiles": [
+      {
+        "mode": "Standard",
+        "range": "Melee",
+        "A": "4",
+        "WS": "3+",
+        "S": "6",
+        "AP": "-1",
+        "D": "D3",
+        "keywords": "Lethal Hits, Psychic"
+      }
+    ]
+  },
+  {
+    "id": "wpn_cursed_plague_bell",
+    "weapon_name": "Cursed plague bell",
+    "type": "Melee",
+    "profiles": [
+      {
+        "mode": "Standard",
+        "range": "Melee",
+        "A": "5",
+        "WS": "3+",
+        "S": "4",
+        "AP": "0",
+        "D": "2",
+        "keywords": "Anti-PSYKER 2+, Lethal Hits"
+      }
+    ]
+  },
+  {
+    "id": "wpn_daemonbreath_spear",
+    "weapon_name": "Daemonbreath spear",
+    "type": "Ranged",
+    "profiles": [
+      {
+        "mode": "Standard",
+        "range": "24\"",
+        "A": "2",
+        "BS": "2+",
+        "S": "12",
+        "AP": "-4",
+        "D": "D6",
+        "keywords": "Melta 4"
+      }
+    ]
+  },
+  {
+    "id": "wpn_defiler_claws",
+    "weapon_name": "Defiler claws",
+    "type": "Melee",
+    "profiles": [
+      {
+        "mode": "Standard",
+        "range": "Melee",
+        "A": "5",
+        "WS": "3+",
+        "S": "16",
+        "AP": "-3",
+        "D": "D6+1",
+        "keywords": "-"
+      }
+    ]
+  },
+  {
+    "id": "wpn_defiler_scourge",
+    "weapon_name": "Defiler scourge",
+    "type": "Melee",
+    "profiles": [
+      {
+        "mode": "Standard",
+        "range": "Melee",
+        "A": "3",
+        "WS": "3+",
+        "S": "12",
+        "AP": "-1",
+        "D": "2",
+        "keywords": "Extra Attacks"
+      }
+    ]
+  },
+  {
+    "id": "wpn_entropy_cannon",
+    "weapon_name": "Entropy cannon",
+    "type": "Ranged",
+    "profiles": [
+      {
+        "mode": "Standard",
+        "range": "36\"",
+        "A": "1",
+        "BS": "3+",
+        "S": "10",
+        "AP": "-3",
+        "D": "D6+1",
+        "keywords": "Lethal Hits"
+      }
+    ]
+  },
+  {
+    "id": "wpn_flail_of_corruption",
+    "weapon_name": "Flail of corruption",
+    "type": "Melee",
+    "profiles": [
+      {
+        "mode": "Standard",
+        "range": "Melee",
+        "A": "6",
+        "WS": "3+",
+        "S": "5",
+        "AP": "-1",
+        "D": "2",
+        "keywords": "Lethal Hits"
+      }
+    ]
+  },
+  {
+    "id": "wpn_fleshmower",
+    "weapon_name": "Fleshmower",
+    "type": "Melee",
+    "profiles": [
+      {
+        "mode": "Standard",
+        "range": "Melee",
+        "A": "10",
+        "WS": "3+",
+        "S": "7",
+        "AP": "-1",
+        "D": "2",
+        "keywords": "Lethal Hits"
+      }
+    ]
+  },
+  {
+    "id": "wpn_gnashing_maw",
+    "weapon_name": "Gnashing maw",
+    "type": "Melee",
+    "profiles": [
+      {
+        "mode": "Standard",
+        "range": "Melee",
+        "A": "4",
+        "WS": "3+",
+        "S": "6",
+        "AP": "-1",
+        "D": "1",
+        "keywords": "Lethal Hits"
+      }
+    ]
+  },
+  {
+    "id": "wpn_great_plague_blade",
+    "weapon_name": "Great plague blade",
+    "type": "Melee",
+    "profiles": [
+      {
+        "mode": "Standard",
+        "range": "Melee",
+        "A": "6",
+        "WS": "2+",
+        "S": "8",
+        "AP": "-2",
+        "D": "2",
+        "keywords": "Devastating Wounds, Lethal Hits"
+      }
+    ]
+  },
+  {
+    "id": "wpn_havoc_launcher",
+    "weapon_name": "Havoc launcher",
+    "type": "Ranged",
+    "profiles": [
+      {
+        "mode": "Standard",
+        "range": "48\"",
+        "A": "D6",
+        "BS": "3+",
+        "S": "5",
+        "AP": "0",
+        "D": "1",
+        "keywords": "Blast"
+      }
+    ]
+  },
+  {
+    "id": "wpn_havoc_multi_launcher",
+    "weapon_name": "Havoc multi-launcher",
+    "type": "Ranged",
+    "profiles": [
+      {
+        "mode": "Standard",
+        "range": "48\"",
+        "A": "D6",
+        "BS": "2+",
+        "S": "5",
+        "AP": "0",
+        "D": "1",
+        "keywords": "Blast, Indirect Fire"
+      }
+    ]
+  },
+  {
+    "id": "wpn_heavy_blight_launcher",
+    "weapon_name": "Heavy blight launcher",
+    "type": "Ranged",
+    "profiles": [
+      {
+        "mode": "Standard",
+        "range": "36\"",
+        "A": "D6+2",
+        "BS": "3+",
+        "S": "10",
+        "AP": "-2",
+        "D": "3",
+        "keywords": "Blast, Lethal Hits"
+      }
+    ]
+  },
+  {
+    "id": "wpn_heavy_plague_weapon",
+    "weapon_name": "Heavy plague weapon",
+    "type": "Melee",
+    "profiles": [
+      {
+        "mode": "Standard",
+        "range": "Melee",
+        "A": "3",
+        "WS": "4+",
+        "S": "8",
+        "AP": "-2",
+        "D": "2",
+        "keywords": "Lethal Hits"
+      }
+    ]
+  },
+  {
+    "id": "wpn_heavy_slugger",
+    "weapon_name": "Heavy slugger",
+    "type": "Ranged",
+    "profiles": [
+      {
+        "mode": "Standard",
+        "range": "36\"",
+        "A": "4",
+        "BS": "3+",
+        "S": "5",
+        "AP": "-1",
+        "D": "1",
+        "keywords": "Lethal Hits"
+      }
+    ]
+  },
+  {
+    "id": "wpn_hellforged_weapons",
+    "weapon_name": "Hellforged weapons",
+    "type": "Melee",
+    "profiles": [
+      {
+        "mode": "strike",
+        "range": "Melee",
+        "A": "7",
+        "WS": "2+",
+        "S": "8",
+        "AP": "-2",
+        "D": "3",
+        "keywords": "Lethal Hits"
+      },
+      {
+        "mode": "sweep",
+        "range": "Melee",
+        "A": "14",
+        "WS": "2+",
+        "S": "6",
+        "AP": "-1",
+        "D": "1",
+        "keywords": "Lethal Hits"
+      }
+    ]
+  },
+  {
+    "id": "wpn_hideous_mutations",
+    "weapon_name": "Hideous Mutations",
+    "type": "Melee",
+    "profiles": [
+      {
+        "mode": "Standard",
+        "range": "Melee",
+        "A": "D6+2",
+        "WS": "4+",
+        "S": "5",
+        "AP": "-1",
+        "D": "2",
+        "keywords": "-"
+      }
+    ]
+  },
+  {
+    "id": "wpn_hyper_blight_grenades",
+    "weapon_name": "Hyper blight grenades",
+    "type": "Ranged",
+    "profiles": [
+      {
+        "mode": "Standard",
+        "range": "12\"",
+        "A": "D6",
+        "BS": "3+",
+        "S": "7",
+        "AP": "-1",
+        "D": "2",
+        "keywords": "Assault, Blast, Lethal Hits"
+      }
+    ]
+  },
+  {
+    "id": "wpn_improvised_weapons",
+    "weapon_name": "Improvised weapons",
+    "type": "Melee",
+    "profiles": [
+      {
+        "mode": "Standard",
+        "range": "Melee",
+        "A": "2",
+        "WS": "5+",
+        "S": "3",
+        "AP": "0",
+        "D": "1",
+        "keywords": "Lethal Hits"
+      }
+    ]
+  },
+  {
+    "id": "wpn_infernal_cannon",
+    "weapon_name": "Infernal cannon",
+    "type": "Ranged",
+    "profiles": [
+      {
+        "mode": "Standard",
+        "range": "24\"",
+        "A": "3",
+        "BS": "2+",
+        "S": "5",
+        "AP": "-1",
+        "D": "2",
+        "keywords": "Lethal Hits"
+      }
+    ]
+  },
+  {
+    "id": "wpn_injector_pistol",
+    "weapon_name": "Injector pistol",
+    "type": "Ranged",
+    "profiles": [
+      {
+        "mode": "Standard",
+        "range": "3\"",
+        "A": "1",
+        "BS": "3+",
+        "S": "4",
+        "AP": "-1",
+        "D": "3",
+        "keywords": "Anti-INFANTRY 2+, Pistol, Precision"
+      }
+    ]
+  },
+  {
+    "id": "wpn_lakrimae",
+    "weapon_name": "Lakrimae",
+    "type": "Melee",
+    "profiles": [
+      {
+        "mode": "strike",
+        "range": "Melee",
+        "A": "6",
+        "WS": "2+",
+        "S": "9",
+        "AP": "-2",
+        "D": "3",
+        "keywords": "Lethal Hits"
+      },
+      {
+        "mode": "sweep",
+        "range": "Melee",
+        "A": "12",
+        "WS": "2+",
+        "S": "6",
+        "AP": "-1",
+        "D": "1",
+        "keywords": "Lethal Hits"
+      }
+    ]
+  },
+  {
+    "id": "wpn_lantern",
+    "weapon_name": "Lantern",
+    "type": "Ranged",
+    "profiles": [
+      {
+        "mode": "Standard",
+        "range": "24\"",
+        "A": "1",
+        "BS": "2+",
+        "S": "10",
+        "AP": "-3",
+        "D": "3",
+        "keywords": "Pistol, Sustained Hits D3"
+      }
+    ]
+  },
+  {
+    "id": "wpn_lascannon",
+    "weapon_name": "Lascannon",
+    "type": "Ranged",
+    "profiles": [
+      {
+        "mode": "Standard",
+        "range": "48\"",
+        "A": "1",
+        "BS": "3+",
+        "S": "12",
+        "AP": "-3",
+        "D": "D6+1",
+        "keywords": "-"
+      }
+    ]
+  },
+  {
+    "id": "wpn_manreaper",
+    "weapon_name": "Manreaper",
+    "type": "Melee",
+    "profiles": [
+      {
+        "mode": "strike",
+        "range": "Melee",
+        "A": "5",
+        "WS": "2+",
+        "S": "9",
+        "AP": "-2",
+        "D": "3",
+        "keywords": "Lethal Hits"
+      },
+      {
+        "mode": "sweep",
+        "range": "Melee",
+        "A": "10",
+        "WS": "2+",
+        "S": "6",
+        "AP": "-1",
+        "D": "1",
+        "keywords": "Lethal Hits"
+      }
+    ]
+  },
+  {
+    "id": "wpn_meltagun",
+    "weapon_name": "Meltagun",
+    "type": "Ranged",
+    "profiles": [
+      {
+        "mode": "Standard",
+        "range": "12\"",
+        "A": "1",
+        "BS": "3+",
+        "S": "9",
+        "AP": "-4",
+        "D": "D6",
+        "keywords": "Melta 2"
+      }
+    ]
+  },
+  {
+    "id": "wpn_missile_launcher",
+    "weapon_name": "Missile launcher",
+    "type": "Ranged",
+    "profiles": [
+      {
+        "mode": "frag",
+        "range": "48\"",
+        "A": "D6",
+        "BS": "3+",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "keywords": "Blast"
+      },
+      {
+        "mode": "krak",
+        "range": "48\"",
+        "A": "1",
+        "BS": "3+",
+        "S": "9",
+        "AP": "-2",
+        "D": "D6",
+        "keywords": "-"
+      }
+    ]
+  },
+  {
+    "id": "wpn_multi_melta",
+    "weapon_name": "Multi-melta",
+    "type": "Ranged",
+    "profiles": [
+      {
+        "mode": "Standard",
+        "range": "18\"",
+        "A": "2",
+        "BS": "3+",
+        "S": "9",
+        "AP": "-4",
+        "D": "D6",
+        "keywords": "Lethal Hits, Melta 2"
+      }
+    ]
+  },
+  {
+    "id": "wpn_plague_belcher",
+    "weapon_name": "Plague belcher",
+    "type": "Ranged",
+    "profiles": [
+      {
+        "mode": "Standard",
+        "range": "12\"",
+        "A": "D6",
+        "BS": "N/A",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "keywords": "Anti-INFANTRY 4+, Ignores Cover, Torrent"
+      }
+    ]
+  },
+  {
+    "id": "wpn_plague_knife",
+    "weapon_name": "Plague knife",
+    "type": "Melee",
+    "profiles": [
+      {
+        "mode": "Standard",
+        "range": "Melee",
+        "A": "4",
+        "WS": "3+",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "keywords": "Lethal Hits"
+      }
+    ]
+  },
+  {
+    "id": "wpn_plague_knives",
+    "weapon_name": "Plague knives",
+    "type": "Melee",
+    "profiles": [
+      {
+        "mode": "Standard",
+        "range": "Melee",
+        "A": "4",
+        "WS": "3+",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "keywords": "Lethal Hits"
+      }
+    ]
+  },
+  {
+    "id": "wpn_plague_probe",
+    "weapon_name": "Plague probe",
+    "type": "Melee",
+    "profiles": [
+      {
+        "mode": "Standard",
+        "range": "Melee",
+        "A": "3",
+        "WS": "3+",
+        "S": "6",
+        "AP": "-1",
+        "D": "1",
+        "keywords": "Lethal Hits"
+      }
+    ]
+  },
+  {
+    "id": "wpn_plague_spewer",
+    "weapon_name": "Plague spewer",
+    "type": "Ranged",
+    "profiles": [
+      {
+        "mode": "Standard",
+        "range": "12\"",
+        "A": "D6",
+        "BS": "N/A",
+        "S": "5",
+        "AP": "-1",
+        "D": "1",
+        "keywords": "Anti-INFANTRY 2+, Ignores Cover, Torrent"
+      }
+    ]
+  },
+  {
+    "id": "wpn_plague_sprayer",
+    "weapon_name": "Plague sprayer",
+    "type": "Ranged",
+    "profiles": [
+      {
+        "mode": "Standard",
+        "range": "12\"",
+        "A": "D6",
+        "BS": "N/A",
+        "S": "7",
+        "AP": "-2",
+        "D": "2",
+        "keywords": "Anti-INFANTRY 2+, Ignores Cover, Torrent"
+      }
+    ]
+  },
+  {
+    "id": "wpn_plague_wind",
+    "weapon_name": "Plague Wind",
+    "type": "Ranged",
+    "profiles": [
+      {
+        "mode": "witchfire",
+        "range": "12\"",
+        "A": "D6",
+        "BS": "N/A",
+        "S": "4",
+        "AP": "-1",
+        "D": "D3",
+        "keywords": "Psychic, Torrent"
+      },
+      {
+        "mode": "focused witchfire",
+        "range": "12\"",
+        "A": "D6+3",
+        "BS": "N/A",
+        "S": "6",
+        "AP": "-2",
+        "D": "D3",
+        "keywords": "Hazardous, Psychic, Torrent"
+      }
+    ]
+  },
+  {
+    "id": "wpn_plagueburst_mortar",
+    "weapon_name": "Plagueburst mortar",
+    "type": "Ranged",
+    "profiles": [
+      {
+        "mode": "Standard",
+        "range": "48\"",
+        "A": "D6+3",
+        "BS": "3+",
+        "S": "8",
+        "AP": "-1",
+        "D": "2",
+        "keywords": "Blast, Indirect Fire, Lethal Hits"
+      }
+    ]
+  },
+  {
+    "id": "wpn_plaguespitter",
+    "weapon_name": "Plaguespitter",
+    "type": "Ranged",
+    "profiles": [
+      {
+        "mode": "Standard",
+        "range": "12\"",
+        "A": "D6",
+        "BS": "N/A",
+        "S": "6",
+        "AP": "-1",
+        "D": "1",
+        "keywords": "Anti-INFANTRY 2+, Ignores Cover, Torrent"
+      }
+    ]
+  },
+  {
+    "id": "wpn_plaguespurt_gauntlet",
+    "weapon_name": "Plaguespurt gauntlet",
+    "type": "Ranged",
+    "profiles": [
+      {
+        "mode": "Standard",
+        "range": "12\"",
+        "A": "D6",
+        "BS": "N/A",
+        "S": "3",
+        "AP": "0",
+        "D": "1",
+        "keywords": "Anti-INFANTRY 4+, Ignores Cover, Pistol, Torrent"
+      }
+    ]
+  },
+  {
+    "id": "wpn_plasma_gun",
+    "weapon_name": "Plasma gun",
+    "type": "Ranged",
+    "profiles": [
+      {
+        "mode": "standard",
+        "range": "24\"",
+        "A": "1",
+        "BS": "3+",
+        "S": "7",
+        "AP": "-2",
+        "D": "1",
+        "keywords": "Rapid Fire 1"
+      },
+      {
+        "mode": "supercharge",
+        "range": "24\"",
+        "A": "1",
+        "BS": "3+",
+        "S": "8",
+        "AP": "-3",
+        "D": "2",
+        "keywords": "Hazardous, Rapid Fire 1"
+      }
+    ]
+  },
+  {
+    "id": "wpn_plasma_pistol",
+    "weapon_name": "Plasma pistol",
+    "type": "Ranged",
+    "profiles": [
+      {
+        "mode": "standard",
+        "range": "12\"",
+        "A": "1",
+        "BS": "2+",
+        "S": "7",
+        "AP": "-2",
+        "D": "1",
+        "keywords": "Pistol"
+      },
+      {
+        "mode": "supercharge",
+        "range": "12\"",
+        "A": "1",
+        "BS": "2+",
+        "S": "8",
+        "AP": "-3",
+        "D": "2",
+        "keywords": "Hazardous, Pistol"
+      }
+    ]
+  },
+  {
+    "id": "wpn_power_fist",
+    "weapon_name": "Power fist",
+    "type": "Melee",
+    "profiles": [
+      {
+        "mode": "Standard",
+        "range": "Melee",
+        "A": "5",
+        "WS": "2+",
+        "S": "8",
+        "AP": "-2",
+        "D": "2",
+        "keywords": "Lethal Hits"
+      }
+    ]
+  },
+  {
+    "id": "wpn_predator_autocannon",
+    "weapon_name": "Predator autocannon",
+    "type": "Ranged",
+    "profiles": [
+      {
+        "mode": "Standard",
+        "range": "48\"",
+        "A": "4",
+        "BS": "3+",
+        "S": "9",
+        "AP": "-1",
+        "D": "3",
+        "keywords": "Lethal Hits, Rapid Fire 2"
+      }
+    ]
+  },
+  {
+    "id": "wpn_predator_twin_lascannon",
+    "weapon_name": "Predator twin lascannon",
+    "type": "Ranged",
+    "profiles": [
+      {
+        "mode": "Standard",
+        "range": "48\"",
+        "A": "1",
+        "BS": "3+",
+        "S": "14",
+        "AP": "-3",
+        "D": "D6+1",
+        "keywords": "Twin-linked"
+      }
+    ]
+  },
+  {
+    "id": "wpn_reaper_autocannon",
+    "weapon_name": "Reaper autocannon",
+    "type": "Ranged",
+    "profiles": [
+      {
+        "mode": "Standard",
+        "range": "36\"",
+        "A": "4",
+        "BS": "3+",
+        "S": "7",
+        "AP": "-1",
+        "D": "1",
+        "keywords": "Devastating Wounds, Sustained Hits 1"
+      }
+    ]
+  },
+  {
+    "id": "wpn_rotwind",
+    "weapon_name": "Rotwind",
+    "type": "Ranged",
+    "profiles": [
+      {
+        "mode": "Standard",
+        "range": "24\"",
+        "A": "D6+3",
+        "BS": "2+",
+        "S": "7",
+        "AP": "-2",
+        "D": "1",
+        "keywords": "Blast, Devastating Wounds, Lethal Hits, Psychic"
+      }
+    ]
+  },
+  {
+    "id": "wpn_silence",
+    "weapon_name": "Silence",
+    "type": "Melee",
+    "profiles": [
+      {
+        "mode": "strike",
+        "range": "Melee",
+        "A": "5",
+        "WS": "2+",
+        "S": "14",
+        "AP": "-3",
+        "D": "D6+1",
+        "keywords": "Devastating Wounds, Lethal Hits"
+      },
+      {
+        "mode": "sweep",
+        "range": "Melee",
+        "A": "15",
+        "WS": "2+",
+        "S": "8",
+        "AP": "-2",
+        "D": "2",
+        "keywords": "Lethal Hits, Sustained Hits 1"
+      }
+    ]
+  },
+  {
+    "id": "wpn_soulshatter_lascannon",
+    "weapon_name": "Soulshatter lascannon",
+    "type": "Ranged",
+    "profiles": [
+      {
+        "mode": "Standard",
+        "range": "48\"",
+        "A": "2",
+        "BS": "3+",
+        "S": "12",
+        "AP": "-3",
+        "D": "D6+1",
+        "keywords": "-"
+      }
+    ]
+  },
+  {
+    "id": "wpn_twin_heavy_bolter",
+    "weapon_name": "Twin heavy bolter",
+    "type": "Ranged",
+    "profiles": [
+      {
+        "mode": "Standard",
+        "range": "36\"",
+        "A": "3",
+        "BS": "3+",
+        "S": "5",
+        "AP": "-1",
+        "D": "2",
+        "keywords": "Lethal Hits, Sustained Hits 1, Twin-linked"
+      }
+    ]
+  },
+  {
+    "id": "wpn_twin_lascannon",
+    "weapon_name": "Twin lascannon",
+    "type": "Ranged",
+    "profiles": [
+      {
+        "mode": "Standard",
+        "range": "48\"",
+        "A": "1",
+        "BS": "3+",
+        "S": "12",
+        "AP": "-3",
+        "D": "D6+1",
+        "keywords": "Twin-linked"
+      }
+    ]
+  },
+  {
+    "id": "wpn_twin_plague_spewer",
+    "weapon_name": "Twin plague spewer",
+    "type": "Ranged",
+    "profiles": [
+      {
+        "mode": "Standard",
+        "range": "12\"",
+        "A": "D6",
+        "BS": "N/A",
+        "S": "5",
+        "AP": "-1",
+        "D": "1",
+        "keywords": "Anti-INFANTRY 2+, Ignores Cover, Torrent, Twin-linked"
+      }
+    ]
+  }
+]
