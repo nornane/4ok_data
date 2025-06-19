@@ -1,0 +1,83 @@
+{
+  "scenario_id": "SCN_POX_Ranger",
+  "scenario_description": "Poxwalkers 20 ตัวโจมตี Skitarii Swarm Unit (Ranger)",
+  "attacker_info": {
+    "unit_id": "unit_dg_poxwalkers",
+    "model_count": 20,
+    "weapon_id": "wpn_improvised_weapons",
+    "active_rules": {
+      "hit_roll_modifiers": {
+        "reroll": "none",
+        "sustained_hits": "none",
+        "lethal_hits": true
+      },
+      "wound_roll_modifiers": {
+        "reroll": "none",
+        "twin_linked": false,
+        "devastating_wounds": false
+      }
+    }
+  },
+  "target_info": {
+    "unit_id": "Skitarii Swarm Unit",
+    "model_count": 1,
+    "relevant_stats": {
+      "T": 3,
+      "SV": "4+",
+      "W": 1,
+      "invulnerable_save": "5+"
+    },
+    "active_rules": {
+      "save_roll_modifiers": {
+        "invulnerable_save": "5+"
+      },
+      "damage_modifiers": {
+        "feel_no_pain": "none"
+      },
+      "unit_abilities": {
+        "is_afflicted": true,
+        "chosen_plague": "Skullsquirm Blight"
+      }
+    }
+  },
+  "conditions": {
+    "target_in_cover": false,
+    "attacker_remained_stationary": false,
+    "firing_at_half_range": false,
+    "target_type": "INFANTRY"
+  },
+  "calculation_steps": [
+    {
+      "step": 1,
+      "name": "Number of Attacks",
+      "explanation": "Poxwalkers 20 ตัว แต่ละตัวมี 2 Attacks จาก Improvised weapons",
+      "calculation": "20 Poxwalkers * 2 attacks/Poxwalker = 40 attacks",
+      "result": 40
+    },
+    {
+      "step": 2,
+      "name": "Hit Roll (WS 5+ with Lethal Hits)",
+      "explanation": "เนื่องจากเป้าหมาย Skitarii Swarm Unit เป็น Afflicted และเลือก Skullsquirm Blight, การโจมตีเป้าหมายนี้จะถูกหัก 1 จาก Hit roll. ทำให้ต้องทอย 6+ เพื่อ Hit (ทอยได้ 6 เท่านั้น). Lethal Hits ทำงานเมื่อทอย 6.",
+      "calculation": "Critical Hits (6): 40 * (1/6) = 6.67 critical hits. Normal Hits (no hits on 5+ due to -1): 0 hits. Total Hits: 6.67",
+      "result": 6.67
+    },
+    {
+      "step": 3,
+      "name": "Wound Roll (S3 vs T3 reduced to T2, Lethal Hits)",
+      "explanation": "Strength 3 vs Toughness 2 (เนื่องจาก Nurgle's Gift ลด Toughness ของเป้าหมายลง 1). S มากกว่า T สองเท่า (3 > 2x2=4) ต้องการผล 2+ เพื่อ Wound. Lethal Hits ทำให้ Critical Hit (6) ใน Hit roll สร้าง Wound อัตโนมัติ.",
+      "calculation": "Wounds from Lethal Hits (from 6.67 critical hits): 6.67 wounds. Normal Wounds: (6.67 total hits - 6.67 lethal hits) * (5/6) = 0 hits * 0.8333 = 0 wounds. Total Wounds: 6.67 + 0 = 6.67 wounds",
+      "result": 6.67
+    },
+    {
+      "step": 4,
+      "name": "Save Roll (SV 4+ vs AP 0, Invulnerable Save 5+)",
+      "explanation": "Save เป้าหมาย 4+ ถูกลดด้วย AP 0 ยังคงเป็น 4+. เป้าหมายใช้ Invulnerable Save 5+ เนื่องจากดีกว่า Normal Save 4+ ที่ถูก AP 0. ต้องการผล 5+ เพื่อ Save (5, 6) มีโอกาส Save 2/6 = 0.3333",
+      "calculation": "6.67 wounds * (4/6) = 4.45 failed saves",
+      "result": 4.45
+    }
+  ],
+  "expected_outcome": {
+    "total_pass_wound_rolls": 6.67,
+    "failed_saves": 4.45
+  }
+}
