@@ -1,0 +1,51 @@
+{
+  "scenario_id": "SCN003",
+  "scenario_description": "Blightlord Terminator (1) ยิง Reaper Autocannon ใส่ Chaos Land Raider",
+  "attacker_info": {
+    "unit_id": "unit_dg_blightlord_terminators",
+    "model_count": 1,
+    "weapon_id": "wpn_reaper_autocannon",
+    "active_rules": {
+      "hit_roll_modifiers": {
+        "reroll": "none",
+        "sustained_hits": 1,
+        "lethal_hits": false
+      },
+      "wound_roll_modifiers": {
+        "reroll": "none",
+        "twin_linked": false,
+        "devastating_wounds": true
+      }
+    }
+  },
+  "target_info": {
+    "unit_id": "unit_dg_chaos_land_raider",
+    "model_count": 1,
+    "relevant_stats": { "T": 12, "SV": "2+", "W": 16 },
+    "active_rules": {
+      "save_roll_modifiers": { "invulnerable_save": "none" },
+      "damage_modifiers": { "feel_no_pain": "none" }
+    }
+  },
+  "calculation_steps": [
+    {
+      "step": 1,
+      "name": "Number of Attacks",
+      "calculation": "Reaper Autocannon A4 = 4 attacks",
+      "result": 4
+    },
+    {
+      "step": 2,
+      "name": "Hit Roll (BS 3+)",
+      "explanation": "ต้องการผล 3+. Critical Hits (ผล 6) จะสร้าง hit เพิ่ม 1 ครั้งเพราะมี [Sustained Hits 1]",
+      "calculation": {
+        "normal_hits_expected": "4 attacks * (3/6 for 3,4,5) = 2.0 hits",
+        "extra_hits_from_sustained": "4 attacks * (1/6 for 6) * 1 extra hit = 0.67 extra hits",
+        "total_hits": "2.0 + (4 * 1/6 for original hit) + 0.67 = 3.33 total hits"
+      },
+      "result": 3.33
+    },
+    {
+      "step": 3,
+      "name": "Wound Roll (S7 vs T12)",
+      "explanation": "ต้องการผล 6+ เพื่อสร้างแผล. Critical Wounds (ผล 6) จะทำงานกับ [Devastating Wounds]

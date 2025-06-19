@@ -1,0 +1,67 @@
+{
+  "scenario_id": "SCN001",
+  "scenario_description": "Plague Marines 5 นาย ยิง Boltgun ใส่ Ork Boyz 10 นาย ที่ยืนในที่โล่ง",
+  "attacker_info": {
+    "unit_id": "unit_dg_plague_marines",
+    "model_count": 5,
+    "weapon_id": "wpn_boltgun",
+    "relevant_stats": {
+      "BS": "3+" 
+    }
+  },
+  "target_info": {
+    "unit_id": "unit_ork_boyz", // สมมติว่ามี ID นี้
+    "model_count": 10,
+    "relevant_stats": {
+      "T": "5",
+      "SV": "6+",
+      "W": "1",
+      "special_rules": [] // เช่น Feel No Pain
+    }
+  },
+  "conditions": {
+    "target_in_cover": false,
+    "attacker_remained_stationary": true,
+    "target_is_afflicted": true // สมมติว่าเป้าหมายติดโรค
+  },
+  "calculation_steps": [
+    {
+      "step": 1,
+      "name": "Number of Attacks",
+      "calculation": "5 models * 2 attacks per boltgun = 10 attacks",
+      "result": 10
+    },
+    {
+      "step": 2,
+      "name": "Hit Roll (BS 3+)",
+      "explanation": "ต้องการผล 3, 4, 5, 6 เพื่อให้โดน มีโอกาส 4/6 หรือ 66.7%",
+      "calculation": "10 attacks * (4/6) = 6.67 hits",
+      "result": 6.67
+    },
+    {
+      "step": 3,
+      "name": "Wound Roll (S4 vs T5)",
+      "explanation": "Strength (4) น้อยกว่า Toughness (5) ต้องการผล 5, 6 เพื่อให้เกิดแผล มีโอกาส 2/6 หรือ 33.3%",
+      "calculation": "6.67 hits * (2/6) = 2.22 wounds",
+      "result": 2.22
+    },
+    {
+      "step": 4,
+      "name": "Save Roll (SV 6+ vs AP 0)",
+      "explanation": "เป้าหมายเซฟที่ 6+ ไม่มี AP จากอาวุธ เป้าหมายจะเซฟพลาดเมื่อทอยได้ 1-5 มีโอกาสพลาด 5/6 หรือ 83.3%",
+      "calculation": "2.22 wounds * (5/6) = 1.85 failed saves",
+      "result": 1.85
+    },
+    {
+      "step": 5,
+      "name": "Damage Dealt (D 1)",
+      "explanation": "แต่ละ failed save สร้างความเสียหาย 1 damage",
+      "calculation": "1.85 failed saves * 1 damage = 1.85 damage",
+      "result": 1.85
+    }
+  ],
+  "expected_outcome": {
+    "average_damage": 1.85,
+    "average_models_killed": "1.85 models (เป้าหมายมี 1 Wounds ต่อโมเดล)"
+  }
+}
