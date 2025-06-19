@@ -1,0 +1,55 @@
+{
+  "id": "unit_dg_plague_surgeon",
+  "unit_name": "Plague Surgeon",
+  "keywords": [
+    "Faction: Death Guard",
+    "Character",
+    "Infantry",
+    "Chaos",
+    "Nurgle",
+    "Plague Surgeon"
+  ],
+  "stats_profile": [
+    {
+      "model_name": "Plague Surgeon",
+      "M": "5\"",
+      "T": "6",
+      "SV": "3+",
+      "W": "4",
+      "LD": "6+",
+      "OC": "1"
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Leader"
+    ],
+    "faction": "Nurgle's Gift (Aura)",
+    "unit_specific": [
+      {
+        "ability_name": "Tainted Narthecium",
+        "description": "While this model is leading a unit, in your Command phase, you can return 1 destroyed Bodyguard model to that unit."
+      },
+      {
+        "ability_name": "Inflamed Infections",
+        "description": "At the start of the Fight phase, select one enemy unit within Engagement Range of this model. Until the end of the phase, each time this model makes an attack that targets that unit, an unmodified Hit roll of 5+ scores a Critical Hit. If that unit is below Half-strength, an unmodified Hit roll of 4+ scores a Critical Hit instead."
+      }
+    ]
+  },
+  "composition_and_wargear": {
+    "unit_composition": "This unit contains 1 Plague Surgeon.",
+    "default_wargear_text": "This model is equipped with: a bolt pistol and a balesword.",
+    "wargear_options": [],
+    "referenced_weapon_ids": [
+      "wpn_bolt_pistol",
+      "wpn_balesword"
+    ]
+  },
+  "leader": {
+    "can_lead_text": "This model can be attached to the following unit:",
+    "can_lead_units": [
+      "Plague Marines"
+    ],
+    "special_rule": "You can attach this model to a Plague Marines unit, even if one other Leader unit has already been attached to it (you cannot attach more than one of the same Leader to the same unit). If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths."
+  }
+}

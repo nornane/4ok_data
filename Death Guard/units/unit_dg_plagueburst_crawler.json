@@ -1,0 +1,57 @@
+{
+  "id": "unit_dg_plagueburst_crawler",
+  "unit_name": "Plagueburst Crawler",
+  "keywords": [
+    "Faction: Death Guard",
+    "Vehicle",
+    "Daemon",
+    "Chaos",
+    "Nurgle",
+    "Plagueburst Crawler"
+  ],
+  "stats_profile": [
+    {
+      "model_name": "Plagueburst Crawler",
+      "M": "10\"",
+      "T": "10",
+      "SV": "2+",
+      "W": "12",
+      "LD": "6+",
+      "OC": "3",
+      "invulnerable_save": "5+"
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deadly Demise D3"
+    ],
+    "faction": "Nurgle's Gift (Aura)",
+    "unit_specific": [
+      {
+        "ability_name": "Spore-laced Shock Waves",
+        "description": "In your Shooting phase, each time you select a target for this model's Plagueburst mortar, roll one D6 for the target unit and every other enemy unit within 3\" of the target unit, adding 1 to that roll if the unit being rolled for is Afflicted. On a 6+, the unit being rolled for is struck by spores; after resolving all of this model's attacks against the target unit, each unit struck by spores suffers D3 mortal wounds."
+      },
+      {
+        "ability_name": "Damaged: 1-4 Wounds Remaining",
+        "description": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+      }
+    ]
+  },
+  "composition_and_wargear": {
+    "unit_composition": "This unit contains 1-3 Plagueburst Crawlers.",
+    "default_wargear_text": "Every model is equipped with: a plagueburst mortar and armoured tracks.",
+    "wargear_options": [
+      "Each model is also equipped with one of the following: 1 heavy slugger or 1 rothail volley gun.",
+      "Each model's two entropy cannons can be replaced with 2 plaguespitters."
+    ],
+    "referenced_weapon_ids": [
+      "wpn_plagueburst_mortar",
+      "wpn_armoured_tracks",
+      "wpn_heavy_slugger",
+      "wpn_rothail_volley_gun",
+      "wpn_entropy_cannon",
+      "wpn_plaguespitter"
+    ]
+  },
+  "leader": "This unit cannot be led by any Character and cannot lead other units."
+}

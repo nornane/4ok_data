@@ -1,0 +1,55 @@
+{
+  "id": "unit_dg_daemon_prince_of_nurgle",
+  "unit_name": "Daemon Prince of Nurgle",
+  "keywords": [
+    "Faction: Death Guard",
+    "Monster",
+    "Character",
+    "Daemon",
+    "Chaos",
+    "Nurgle",
+    "Daemon Prince"
+  ],
+  "stats_profile": [
+    {
+      "model_name": "Death Guard Daemon Prince",
+      "M": "8\"",
+      "T": "12",
+      "SV": "2+",
+      "W": "10",
+      "LD": "6+",
+      "OC": "3",
+      "invulnerable_save": "4+"
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deadly Demise D3"
+    ],
+    "faction": "Nurgle's Gift (Aura)",
+    "unit_specific": [
+      {
+        "ability_name": "Death Guard Defenders",
+        "description": "While this model is within 3\" of one or more friendly Death Guard Infantry units, this model has the Lone Operative ability."
+      },
+      {
+        "ability_name": "Fevered Strategist",
+        "description": "Once per Battle Round, one model from your army with this ability can use it when a friendly Death Guard unit within 12\" of that model is targeted with a Stratagem. If it does, reduce the CP cost of that Stratagem by 1CP."
+      },
+      {
+        "ability_name": "Miasma of Pestilence (Aura)",
+        "description": "While a friendly Death Guard unit is within 6\" of this model, each time a ranged attack targets that unit, models in that unit have the Benefit of Cover against that attack."
+      }
+    ]
+  },
+  "composition_and_wargear": {
+    "unit_composition": "This unit contains 1 Daemon Prince of Nurgle.",
+    "default_wargear_text": "This model is equipped with: an infernal cannon and hellforged weapons.",
+    "wargear_options": [],
+    "referenced_weapon_ids": [
+      "wpn_infernal_cannon",
+      "wpn_hellforged_weapons"
+    ]
+  },
+  "leader": "This model does not lead any units. It functions as a powerful solo operative that provides aura buffs to nearby units."
+}

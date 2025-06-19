@@ -1,0 +1,56 @@
+{
+  "id": "unit_dg_noxious_blightbringer",
+  "unit_name": "Noxious Blightbringer",
+  "keywords": [
+    "Faction: Death Guard",
+    "Character",
+    "Infantry",
+    "Chaos",
+    "Nurgle",
+    "Noxious Blightbringer"
+  ],
+  "stats_profile": [
+    {
+      "model_name": "Noxious Blightbringer",
+      "M": "5\"",
+      "T": "6",
+      "SV": "3+",
+      "W": "4",
+      "LD": "6+",
+      "OC": "1"
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Leader"
+    ],
+    "faction": "Nurgle's Gift (Aura)",
+    "unit_specific": [
+      {
+        "ability_name": "Sickening Vitality",
+        "description": "While this model is leading a unit, add 1\" to the Move characteristic of models in that unit and you can re-roll Advance and Charge rolls made for that unit."
+      },
+      {
+        "ability_name": "Tocsin of Misery (Aura)",
+        "description": "In the Battle-shock step of your opponent's Command phase, if an enemy unit that is below its Starting Strength is within 9\" of this model, that enemy unit must take a Battle-shock test, subtracting 1 from that test if it is a Psyker unit."
+      }
+    ]
+  },
+  "composition_and_wargear": {
+    "unit_composition": "This unit contains 1 Noxious Blightbringer.",
+    "default_wargear_text": "This model is equipped with: a plasma pistol and a cursed plague bell.",
+    "wargear_options": [],
+    "referenced_weapon_ids": [
+      "wpn_plasma_pistol",
+      "wpn_cursed_plague_bell"
+    ]
+  },
+  "leader": {
+    "can_lead_text": "This model can be attached to the following units:",
+    "can_lead_units": [
+      "Plague Marines",
+      "Poxwalkers"
+    ],
+    "special_rule": "You can attach this model to a Plague Marines or Poxwalkers unit, even if one other Leader unit has already been attached to it (you cannot attach more than one of the same Leader to the same unit). If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths."
+  }
+}

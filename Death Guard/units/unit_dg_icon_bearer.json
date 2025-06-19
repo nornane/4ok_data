@@ -1,0 +1,56 @@
+{
+  "id": "unit_dg_icon_bearer",
+  "unit_name": "Icon Bearer",
+  "keywords": [
+    "Faction: Death Guard",
+    "Character",
+    "Infantry",
+    "Grenades",
+    "Chaos",
+    "Nurgle",
+    "Death Guard Icon Bearer"
+  ],
+  "stats_profile": [
+    {
+      "model_name": "Icon Bearer",
+      "M": "5\"",
+      "T": "6",
+      "SV": "3+",
+      "W": "4",
+      "LD": "5+",
+      "OC": "1"
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Leader"
+    ],
+    "faction": "Nurgle's Gift (Aura)",
+    "unit_specific": [
+      {
+        "ability_name": "Unclean Icon",
+        "description": "While this model is leading a unit, add 1 to the Objective Control characteristic of models in that unit."
+      },
+      {
+        "ability_name": "Blessed Icon of Disease",
+        "description": "Once per battle, at the start of any phase, you can select one friendly Death Guard unit that is Battle-shocked and within 12\" of this model. That unit is no longer Battle-shocked."
+      }
+    ]
+  },
+  "composition_and_wargear": {
+    "unit_composition": "This unit contains 1 Icon Bearer.",
+    "default_wargear_text": "This model is equipped with: a boltgun and a plague knife.",
+    "wargear_options": [],
+    "referenced_weapon_ids": [
+      "wpn_boltgun",
+      "wpn_plague_knife"
+    ]
+  },
+  "leader": {
+    "can_lead_text": "This model can be attached to the following unit:",
+    "can_lead_units": [
+      "Plague Marines"
+    ],
+    "special_rule": "You can attach this model to a Plague Marines unit, even if one other Leader unit has already been attached to it (you cannot attach more than one of the same Leader to the same unit). If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths."
+  }
+}

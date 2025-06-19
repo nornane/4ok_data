@@ -1,0 +1,48 @@
+{
+  "id": "unit_dg_poxwalkers",
+  "unit_name": "Poxwalkers",
+  "keywords": [
+    "Faction: Death Guard",
+    "Infantry",
+    "Battleline",
+    "Chaos",
+    "Nurgle",
+    "Poxwalkers"
+  ],
+  "stats_profile": [
+    {
+      "model_name": "Poxwalkers",
+      "M": "5\"",
+      "T": "4",
+      "SV": "7+",
+      "W": "1",
+      "LD": "8+",
+      "OC": "1"
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Infiltrators"
+    ],
+    "faction": "Nurgle's Gift (Aura)",
+    "unit_specific": [
+      {
+        "ability_name": "Feel No Pain 5+",
+        "description": "Models in this unit have a 5+ Feel No Pain."
+      },
+      {
+        "ability_name": "Curse of the Walking Pox",
+        "description": "Each time a Poxwalker model in this unit makes an attack that destroys an enemy model (excluding Monster and Vehicle models), after this unit has resolved its attacks, you can return one destroyed Poxwalker model to this unit. While Typhus is leading this unit, enemy models destroyed as a result of Typhus’ Eater Plague ability count as enemy models destroyed by an attack made by a Poxwalker model in this unit for the purposes of this ability."
+      }
+    ]
+  },
+  "composition_and_wargear": {
+    "unit_composition": "This unit contains 10-20 Poxwalkers.",
+    "default_wargear_text": "Every model is equipped with: improvised weapons.",
+    "wargear_options": [],
+    "referenced_weapon_ids": [
+      "wpn_improvised_weapons"
+    ]
+  },
+  "leader": "This unit can be led by Typhus or a Malignant Plaguecaster."
+}

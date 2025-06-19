@@ -1,0 +1,57 @@
+{
+  "id": "unit_dg_lord_of_contagion",
+  "unit_name": "Lord of Contagion",
+  "keywords": [
+    "Faction: Death Guard",
+    "Character",
+    "Infantry",
+    "Grenades",
+    "Chaos",
+    "Nurgle",
+    "Lord of Contagion"
+  ],
+  "stats_profile": [
+    {
+      "model_name": "Lord of Contagion",
+      "M": "5\"",
+      "T": "7",
+      "SV": "2+",
+      "W": "6",
+      "LD": "6+",
+      "OC": "1",
+      "invulnerable_save": "4+"
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deep Strike",
+      "Leader"
+    ],
+    "faction": "Nurgle's Gift (Aura)",
+    "unit_specific": [
+      {
+        "ability_name": "Vector of Disease",
+        "description": "While this model is leading a unit, melee weapons equipped by models in that unit have the [Sustained Hits 1] and [Lance] abilties."
+      },
+      {
+        "ability_name": "Unholy Resilience",
+        "description": "The first time a model with this ability is destroyed in a battle round, roll one D6 at the end of the phase. On a 2+, set that model back up on the battlefield, as close as possible to where it was destroyed and not within Engagement Range of any enemy units, with 3 wounds remaining. Each model can only be set up in this way once per battle."
+      }
+    ]
+  },
+  "composition_and_wargear": {
+    "unit_composition": "This unit contains 1 Lord of Contagion.",
+    "default_wargear_text": "This model is equipped with: a manreaper.",
+    "wargear_options": [],
+    "referenced_weapon_ids": [
+      "wpn_manreaper"
+    ]
+  },
+  "leader": {
+    "can_lead_text": "This model can be attached to the following units:",
+    "can_lead_units": [
+      "Blightlord Terminators",
+      "Deathshroud Terminators"
+    ]
+  }
+}

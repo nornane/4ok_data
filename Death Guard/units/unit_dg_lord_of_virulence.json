@@ -1,0 +1,58 @@
+{
+  "id": "unit_dg_lord_of_virulence",
+  "unit_name": "Lord of Virulence",
+  "keywords": [
+    "Faction: Death Guard",
+    "Character",
+    "Infantry",
+    "Terminator",
+    "Chaos",
+    "Nurgle",
+    "Lord of Virulence"
+  ],
+  "stats_profile": [
+    {
+      "model_name": "Lord of Virulence",
+      "M": "5\"",
+      "T": "7",
+      "SV": "2+",
+      "W": "6",
+      "LD": "6+",
+      "OC": "1",
+      "invulnerable_save": "4+"
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deep Strike",
+      "Leader"
+    ],
+    "faction": "Nurgle's Gift (Aura)",
+    "unit_specific": [
+      {
+        "ability_name": "Virulent Aura",
+        "description": "While this model is leading a unit, each time a model in that unit makes a ranged attack, you can re-roll the Wound roll."
+      },
+      {
+        "ability_name": "Blight Bombardment",
+        "description": "At the start of your Shooting phase, select one enemy unit within 30\" of and visible to this model. Until the end of the phase, each time a friendly Death Guard unit makes a ranged attack that targets that unit, re-roll a Hit roll of 1 (if that attack is made with a Blast weapon, you can re-roll the Hit roll instead)."
+      }
+    ]
+  },
+  "composition_and_wargear": {
+    "unit_composition": "This unit contains 1 Lord of Virulence.",
+    "default_wargear_text": "This model is equipped with: a twin plague spewer and a power fist.",
+    "wargear_options": [],
+    "referenced_weapon_ids": [
+      "wpn_twin_plague_spewer",
+      "wpn_power_fist"
+    ]
+  },
+  "leader": {
+    "can_lead_text": "This model can be attached to the following units:",
+    "can_lead_units": [
+      "Blightlord Terminators",
+      "Deathshroud Terminators"
+    ]
+  }
+}

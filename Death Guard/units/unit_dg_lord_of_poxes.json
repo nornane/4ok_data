@@ -1,0 +1,56 @@
+{
+  "id": "unit_dg_lord_of_poxes",
+  "unit_name": "Lord of Poxes",
+  "keywords": [
+    "Faction: Death Guard",
+    "Character",
+    "Infantry",
+    "Grenades",
+    "Chaos",
+    "Nurgle",
+    "Lord of Poxes"
+  ],
+  "stats_profile": [
+    {
+      "model_name": "Lord of Poxes",
+      "M": "5\"",
+      "T": "6",
+      "SV": "3+",
+      "W": "5",
+      "LD": "6+",
+      "OC": "1",
+      "invulnerable_save": "4+"
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Leader"
+    ],
+    "faction": "Nurgle's Gift (Aura)",
+    "unit_specific": [
+      {
+        "ability_name": "Gift of Poxes",
+        "description": "Add 3\" to the range of this model's Contagion Range."
+      },
+      {
+        "ability_name": "Shroud of Disease",
+        "description": "While this model is leading a unit, that unit cannot be targeted by ranged attacks unless the attacking unit is within 18\"."
+      }
+    ]
+  },
+  "composition_and_wargear": {
+    "unit_composition": "This unit contains 1 Lord of Poxes.",
+    "default_wargear_text": "This model is equipped with: a plasma pistol and a great plague blade.",
+    "wargear_options": [],
+    "referenced_weapon_ids": [
+      "wpn_plasma_pistol",
+      "wpn_great_plague_blade"
+    ]
+  },
+  "leader": {
+    "can_lead_text": "This model can be attached to the following units:",
+    "can_lead_units": [
+      "Plague Marines"
+    ]
+  }
+}

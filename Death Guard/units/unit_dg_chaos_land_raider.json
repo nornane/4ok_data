@@ -1,0 +1,60 @@
+{
+  "id": "unit_dg_chaos_land_raider",
+  "unit_name": "Chaos Land Raider",
+  "keywords": [
+    "Faction: Death Guard",
+    "Vehicle",
+    "Transport",
+    "Chaos",
+    "Nurgle",
+    "Smoke",
+    "Land Raider"
+  ],
+  "stats_profile": [
+    {
+      "model_name": "Chaos Land Raider",
+      "M": "10\"",
+      "T": "12",
+      "SV": "2+",
+      "W": "16",
+      "LD": "6+",
+      "OC": "5"
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deadly Demise D6"
+    ],
+    "faction": "Nurgle's Gift (Aura)",
+    "unit_specific": [
+      {
+        "ability_name": "Assault Ramp",
+        "description": "Each time a unit disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn."
+      },
+      {
+        "ability_name": "Damaged: 1-5 Wounds Remaining",
+        "description": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+      }
+    ]
+  },
+  "transport_capacity": {
+    "capacity_text": "This model has a transport capacity of 14 Death Guard Infantry models.",
+    "restrictions": "Each Terminator model takes up the space of 2 models."
+  },
+  "composition_and_wargear": {
+    "unit_composition": "This unit contains 1 Chaos Land Raider.",
+    "default_wargear_text": "This model is equipped with: 2 soulshatter lascannons, a twin heavy bolter, and armoured tracks.",
+    "wargear_options": [
+      "This model's twin heavy bolter can be replaced with 1 combi-bolter.",
+      "This model can be equipped with 1 havoc launcher."
+    ],
+    "referenced_weapon_ids": [
+      "wpn_soulshatter_lascannon",
+      "wpn_twin_heavy_bolter",
+      "wpn_armoured_tracks",
+      "wpn_combi_bolter",
+      "wpn_havoc_launcher"
+    ]
+  },
+  "leader": "This unit cannot be led by any Character and cannot lead other units."
+}

@@ -1,0 +1,64 @@
+{
+  "id": "unit_dg_plague_marines",
+  "unit_name": "Plague Marines",
+  "keywords": [
+    "Faction: Death Guard",
+    "Infantry",
+    "Battleline",
+    "Grenades",
+    "Chaos",
+    "Nurgle",
+    "Plague Marines"
+  ],
+  "stats_profile": [
+    {
+      "model_name": "Plague Marine",
+      "M": "5\"",
+      "T": "6",
+      "SV": "3+",
+      "W": "2",
+      "LD": "6+",
+      "OC": "2"
+    }
+  ],
+  "abilities": {
+    "core": [],
+    "faction": "Nurgle's Gift (Aura)",
+    "unit_specific": [
+      {
+        "ability_name": "Infused with the Blessings of Nurgle",
+        "description": "In your Shooting phase, each time this unit is selected to shoot, after this unit has shot, select one enemy unit hit by one or more of those attacks. Until the start of your next turn, that unit is Afflicted."
+      },
+      {
+        "ability_name": "Icon of Despair (Aura)",
+        "description": "While an enemy unit is within 6\" of the bearer, worsen the Leadership characteristic of models in that unit by 1. (This ability is gained if a model is equipped with an Icon of Despair)."
+      }
+    ]
+  },
+  "composition_and_wargear": {
+    "unit_composition": "This unit contains 1 Plague Champion and 4-9 Plague Marines.",
+    "default_wargear_text": "Every model is equipped with: a boltgun and plague knives.",
+    "wargear_options": [
+      "Any number of Plague Marines can each have their boltgun replaced with bubotic weapons.",
+      "For every 5 models in this unit, up to 2 Plague Marines can each replace their boltgun with one of the following: 1 blight launcher, 1 meltagun, 1 plague belcher, 1 plague spewer, or 1 plasma gun.",
+      "The Plague Champion's boltgun can be replaced with 1 bolt pistol or 1 plasma pistol.",
+      "The Plague Champion's plague knives can be replaced with 1 heavy plague weapon or 1 power fist.",
+      "1 Plague Marine equipped with a boltgun can take an Icon of Despair."
+    ],
+    "referenced_weapon_ids": [
+      "wpn_boltgun",
+      "wpn_plague_knives",
+      "wpn_plague_spewer",
+      "wpn_blight_launcher",
+      "wpn_bolt_pistol",
+      "wpn_plasma_gun",
+      "wpn_plasma_pistol",
+      "wpn_meltagun",
+      "wpn_plague_belcher",
+      "wpn_heavy_plague_weapon",
+      "wpn_bubotic_weapons",
+      "wpn_power_fist"
+    ]
+  },
+  "leader": "This unit can be led by a Biologus Putrifier, Foul Blightspawn, Icon Bearer, Malignant Plaguecaster, Plague Surgeon, Tallyman, or Lord of Poxes. Some of these characters can join this unit even if another character is already attached."
+}

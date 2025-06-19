@@ -1,0 +1,57 @@
+{
+  "id": "unit_dg_chaos_predator_destructor",
+  "unit_name": "Chaos Predator Destructor",
+  "keywords": [
+    "Faction: Death Guard",
+    "Vehicle",
+    "Chaos",
+    "Nurgle",
+    "Smoke",
+    "Predator Destructor"
+  ],
+  "stats_profile": [
+    {
+      "model_name": "Chaos Predator Destructor",
+      "M": "10\"",
+      "T": "10",
+      "SV": "3+",
+      "W": "11",
+      "LD": "6+",
+      "OC": "3"
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deadly Demise D3"
+    ],
+    "faction": "Nurgle's Gift (Aura)",
+    "unit_specific": [
+      {
+        "ability_name": "Hail of Corrosive Disease",
+        "description": "In your Shooting phase, after this model has shot, select one enemy unit (excluding Monsters and Vehicles) hit by one or more of those attacks. Until the end of the phase, each time a friending Death Guard unit makes a ranged attack that targets that enemy unit, improve the Armour Penetration characteristic of that attack by 1. The same enemy unit can only be affected by this ability once per phase."
+      },
+      {
+        "ability_name": "Damaged: 1-4 Wounds Remaining",
+        "description": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+      }
+    ]
+  },
+  "composition_and_wargear": {
+    "unit_composition": "This unit contains 1 Chaos Predator Destructor.",
+    "default_wargear_text": "This model is equipped with: a predator autocannon and armoured tracks.",
+    "wargear_options": [
+      "This model can be equipped with two sponson-mounted weapons, chosen from the following: 2 lascannons or 2 heavy bolters.",
+      "This model can be equipped with 1 havoc launcher.",
+      "This model can be equipped with 1 combi-weapon."
+    ],
+    "referenced_weapon_ids": [
+      "wpn_predator_autocannon",
+      "wpn_armoured_tracks",
+      "wpn_lascannon",
+      "wpn_heavy_bolter",
+      "wpn_havoc_launcher",
+      "wpn_combi_weapon"
+    ]
+  },
+  "leader": "This unit cannot be led by any Character and cannot lead other units."
+}

@@ -1,0 +1,49 @@
+{
+  "id": "unit_dg_myphitic_blight_hauler",
+  "unit_name": "Myphitic Blight-hauler",
+  "keywords": [
+    "Faction: Death Guard",
+    "Vehicle",
+    "Daemon",
+    "Chaos",
+    "Nurgle",
+    "Smoke",
+    "Myphitic Blight-hauler"
+  ],
+  "stats_profile": [
+    {
+      "model_name": "Myphitic Blight-hauler",
+      "M": "10\"",
+      "T": "9",
+      "SV": "3+",
+      "W": "10",
+      "LD": "6+",
+      "OC": "3",
+      "invulnerable_save": "5+"
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deadly Demise D3"
+    ],
+    "faction": "Nurgle's Gift (Aura)",
+    "unit_specific": [
+      {
+        "ability_name": "Tank Hunters",
+        "description": "In your Shooting phase, each time a model in this unit makes a attack that targets a Monster or Vehicle unit, add 1 to the Hit roll and add 1 to the Wound roll."
+      }
+    ]
+  },
+  "composition_and_wargear": {
+    "unit_composition": "This unit contains 1-3 Myphitic Blight-haulers.",
+    "default_wargear_text": "Every model is equipped with: a bile spurt, a missile launcher, a multi-melta, and a gnashing maw.",
+    "wargear_options": [],
+    "referenced_weapon_ids": [
+      "wpn_bile_spurt",
+      "wpn_missile_launcher",
+      "wpn_multi_melta",
+      "wpn_gnashing_maw"
+    ]
+  },
+  "leader": "This unit cannot be led by any Character and cannot lead other units."
+}

@@ -1,0 +1,56 @@
+{
+  "id": "unit_dg_foul_blightspawn",
+  "unit_name": "Foul Blightspawn",
+  "keywords": [
+    "Faction: Death Guard",
+    "Character",
+    "Infantry",
+    "Grenades",
+    "Chaos",
+    "Nurgle",
+    "Foul Blightspawn"
+  ],
+  "stats_profile": [
+    {
+      "model_name": "Foul Blightspawn",
+      "M": "5\"",
+      "T": "6",
+      "SV": "3+",
+      "W": "4",
+      "LD": "6+",
+      "OC": "1"
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Leader"
+    ],
+    "faction": "Nurgle's Gift (Aura)",
+    "unit_specific": [
+      {
+        "ability_name": "Putrefying Stink",
+        "description": "Enemy models cannot start or end an Advance move within 9\" of this model."
+      },
+      {
+        "ability_name": "Blinding Spray",
+        "description": "In the Fight phase, you can select one model from your army with this ability to use this ability. If you do, until the end of that phase, that model's unit has the Fights First ability. Each model can only be selected for this ability once per battle."
+      }
+    ]
+  },
+  "composition_and_wargear": {
+    "unit_composition": "This unit contains 1 Foul Blightspawn.",
+    "default_wargear_text": "This model is equipped with: a plague sprayer and a close combat weapon.",
+    "wargear_options": [],
+    "referenced_weapon_ids": [
+      "wpn_plague_sprayer",
+      "wpn_close_combat_weapon"
+    ]
+  },
+  "leader": {
+    "can_lead_text": "This model can be attached to the following unit:",
+    "can_lead_units": [
+      "Plague Marines"
+    ],
+    "special_rule": "You can attach this model to a Plague Marines unit, even if one other Leader unit has already been attached to it (you cannot attach more than one of the same Leader to the same unit). If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths."
+  }
+}

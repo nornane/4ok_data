@@ -1,0 +1,68 @@
+{
+  "id": "unit_dg_defiler",
+  "unit_name": "Defiler",
+  "keywords": [
+    "Faction: Death Guard",
+    "Vehicle",
+    "Walker",
+    "Daemon",
+    "Chaos",
+    "Nurgle",
+    "Smoke",
+    "Defiler"
+  ],
+  "stats_profile": [
+    {
+      "model_name": "Defiler",
+      "M": "8\"",
+      "T": "11",
+      "SV": "3+",
+      "W": "14",
+      "LD": "6+",
+      "OC": "5",
+      "invulnerable_save": "5+"
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deadly Demise D3"
+    ],
+    "faction": "Nurgle's Gift (Aura)",
+    "unit_specific": [
+      {
+        "ability_name": "Scuttling Walker",
+        "description": "Each time this model makes a Normal, Advance or Fall Back move, it can move through friendly Monster and Vehicle models and terrain features that are 4\" or less in height."
+      },
+      {
+        "ability_name": "Barrage of Filth",
+        "description": "In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. Until the end of the phase, that enemy unit cannot have the Benefit of Cover."
+      },
+      {
+        "ability_name": "Damaged: 1-5 Wounds Remaining",
+        "description": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+      }
+    ]
+  },
+  "composition_and_wargear": {
+    "unit_composition": "This unit contains 1 Defiler.",
+    "default_wargear_text": "This model is equipped with: a defiler cannon, a reaper autocannon, a twin heavy flamer, and defiler claws.",
+    "wargear_options": [
+      "This model's reaper autocannon can be replaced with one of the following: 1 havoc launcher, 1 twin heavy bolter, or 1 twin lascannon.",
+      "This model's twin heavy flamer can be replaced with 1 defiler scourge.",
+      "This model can be equipped with 1 combi-weapon."
+    ],
+    "referenced_weapon_ids": [
+      "wpn_defiler_cannon",
+      "wpn_battle_cannon",
+      "wpn_reaper_autocannon",
+      "wpn_twin_heavy_flamer",
+      "wpn_defiler_claws",
+      "wpn_havoc_launcher",
+      "wpn_twin_heavy_bolter",
+      "wpn_twin_lascannon",
+      "wpn_defiler_scourge",
+      "wpn_combi_weapon"
+    ]
+  },
+  "leader": "This unit cannot be led by any Character and cannot lead other units."
+}

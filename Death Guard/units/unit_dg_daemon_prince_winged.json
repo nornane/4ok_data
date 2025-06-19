@@ -1,0 +1,53 @@
+{
+  "id": "unit_dg_daemon_prince_winged",
+  "unit_name": "Daemon Prince of Nurgle with Wings",
+  "keywords": [
+    "Faction: Death Guard",
+    "Monster",
+    "Character",
+    "Daemon",
+    "Fly",
+    "Chaos",
+    "Nurgle",
+    "Daemon Prince with Wings"
+  ],
+  "stats_profile": [
+    {
+      "model_name": "Death Guard Daemon Prince with wings",
+      "M": "11\"",
+      "T": "10",
+      "SV": "2+",
+      "W": "10",
+      "LD": "6+",
+      "OC": "3",
+      "invulnerable_save": "4+"
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deadly Demise D3",
+      "Deep Strike"
+    ],
+    "faction": "Nurgle's Gift (Aura)",
+    "unit_specific": [
+      {
+        "ability_name": "Horrifying Visage",
+        "description": "Each time this model ends a Charge move, select one enemy unit within Engagement Range of it. That unit must take a Battle-shock test, subtracting 1 from that test."
+      },
+      {
+        "ability_name": "Enfeebling Miasma (Aura)",
+        "description": "While an enemy unit (excluding Monsters and Vehicles) is within 6\" of this model, each time that unit is selected to Fall Back, models in that enemy unit must take Desperate Escape tests. When doing so, if that enemy unit is Battle-shocked, subtract 1 from each of those Desperate Escape tests."
+      }
+    ]
+  },
+  "composition_and_wargear": {
+    "unit_composition": "This unit contains 1 Daemon Prince of Nurgle with Wings.",
+    "default_wargear_text": "This model is equipped with: an infernal cannon and hellforged weapons.",
+    "wargear_options": [],
+    "referenced_weapon_ids": [
+      "wpn_infernal_cannon",
+      "wpn_hellforged_weapons"
+    ]
+  },
+  "leader": "This model does not lead any units. It is a fast-moving solo operative that excels at hunting down specific targets."
+}

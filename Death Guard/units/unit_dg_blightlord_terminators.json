@@ -1,0 +1,55 @@
+{
+  "id": "unit_dg_blightlord_terminators",
+  "unit_name": "Blightlord Terminators",
+  "keywords": [
+    "Faction: Death Guard",
+    "Infantry",
+    "Terminator",
+    "Chaos",
+    "Nurgle",
+    "Blightlord Terminators"
+  ],
+  "stats_profile": [
+    {
+      "model_name": "Blightlord Terminator",
+      "M": "5\"",
+      "T": "7",
+      "SV": "2+",
+      "W": "3",
+      "LD": "6+",
+      "OC": "1",
+      "invulnerable_save": "4+"
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deep Strike"
+    ],
+    "faction": "Nurgle's Gift (Aura)",
+    "unit_specific": [
+      {
+        "ability_name": "Blistering Fusillade",
+        "description": "If this unit has a Starting Strength of 5 or more, or if a Character is leading this unit, then each time a model in this unit makes a ranged attack that targets an Afflicted unit, improve the Strength and Armour Penetration characteristics of that attack by 1."
+      }
+    ]
+  },
+  "composition_and_wargear": {
+    "unit_composition": "This unit contains 1 Blightlord Champion and 4-9 Blightlord Terminators.",
+    "default_wargear_text": "Every model is equipped with: a combi-bolter and a bubotic blade.",
+    "wargear_options": [
+      "For every 5 models in this unit, one Blightlord Terminator's combi-bolter can be replaced with one of the following: 1 blight launcher, 1 plague spewer, or 1 reaper autocannon.",
+      "For every 5 models in this unit, one Blightlord Terminator's bubotic blade can be replaced with 1 flail of corruption.",
+      "The Blightlord Champion's combi-bolter can be replaced with a combi-weapon."
+    ],
+    "referenced_weapon_ids": [
+      "wpn_combi_bolter",
+      "wpn_bubotic_blade",
+      "wpn_blight_launcher",
+      "wpn_plague_spewer",
+      "wpn_reaper_autocannon",
+      "wpn_flail_of_corruption",
+      "wpn_combi_weapon"
+    ]
+  },
+  "leader": "This unit can be led by a Lord of Contagion, Lord of Virulence, or Typhus."
+}

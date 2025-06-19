@@ -1,0 +1,48 @@
+{
+  "id": "unit_dg_chaos_spawn",
+  "unit_name": "Chaos Spawn",
+  "keywords": [
+    "Faction: Death Guard",
+    "Beast",
+    "Chaos",
+    "Nurgle",
+    "Spawn"
+  ],
+  "stats_profile": [
+    {
+      "model_name": "Chaos Spawn",
+      "M": "8\"",
+      "T": "7",
+      "SV": "4+",
+      "W": "4",
+      "LD": "7+",
+      "OC": "1"
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deadly Demise 1",
+      "Scouts 6\""
+    ],
+    "faction": "Nurgle's Gift (Aura)",
+    "unit_specific": [
+      {
+        "ability_name": "Feel No Pain 5+",
+        "description": "Models in this unit have a 5+ Feel No Pain."
+      },
+      {
+        "ability_name": "Lethal Ichor",
+        "description": "Each time a melee attack is allocated to a model in this unit, after the attacking unit has finished making its attacks, roll one D6 (to a maximum of six D6 per attacking unit): for each 4+, the attacking unit suffers 1 mortal wound."
+      }
+    ]
+  },
+  "composition_and_wargear": {
+    "unit_composition": "This unit contains 1-2 Chaos Spawn.",
+    "default_wargear_text": "Every model is equipped with: hideous mutations.",
+    "wargear_options": [],
+    "referenced_weapon_ids": [
+      "wpn_hideous_mutations"
+    ]
+  },
+  "leader": "This unit cannot be led by any Character and cannot lead other units."
+}

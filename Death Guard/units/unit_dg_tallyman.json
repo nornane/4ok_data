@@ -1,0 +1,55 @@
+{
+  "id": "unit_dg_tallyman",
+  "unit_name": "Tallyman",
+  "keywords": [
+    "Faction: Death Guard",
+    "Character",
+    "Infantry",
+    "Chaos",
+    "Nurgle",
+    "Tallyman"
+  ],
+  "stats_profile": [
+    {
+      "model_name": "Tallyman",
+      "M": "5\"",
+      "T": "6",
+      "SV": "3+",
+      "W": "4",
+      "LD": "6+",
+      "OC": "1"
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Leader"
+    ],
+    "faction": "Nurgle's Gift (Aura)",
+    "unit_specific": [
+      {
+        "ability_name": "Malicious Calculations",
+        "description": "While this model is leading a unit, each time a model in that unit makes an attack, you can ignore any or all modifiers to that attack's Ballistic Skill or Weapon Skill characteristics and/or any or all modifiers to the Hit roll."
+      },
+      {
+        "ability_name": "Seven-fold Chant",
+        "description": "In your Command phase, if this model is on the battlefield, roll 2D6: on a 7+, you gain 1CP."
+      }
+    ]
+  },
+  "composition_and_wargear": {
+    "unit_composition": "This unit contains 1 Tallyman.",
+    "default_wargear_text": "This model is equipped with: a plasma pistol and a close combat weapon.",
+    "wargear_options": [],
+    "referenced_weapon_ids": [
+      "wpn_plasma_pistol",
+      "wpn_close_combat_weapon"
+    ]
+  },
+  "leader": {
+    "can_lead_text": "This model can be attached to the following unit:",
+    "can_lead_units": [
+      "Plague Marines"
+    ],
+    "special_rule": "You can attach this model to a Plague Marines unit, even if one other Leader unit has already been attached to it (you cannot attach more than one of the same Leader to the same unit). If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths."
+  }
+}

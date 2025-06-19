@@ -1,0 +1,52 @@
+{
+  "id": "unit_dg_foetid_bloat_drone",
+  "unit_name": "Foetid Bloat-drone",
+  "keywords": [
+    "Faction: Death Guard",
+    "Vehicle",
+    "Daemon",
+    "Fly",
+    "Chaos",
+    "Nurgle",
+    "Foetid Bloat-drone"
+  ],
+  "stats_profile": [
+    {
+      "model_name": "Foetid Bloat-drone",
+      "M": "10\"",
+      "T": "9",
+      "SV": "3+",
+      "W": "10",
+      "LD": "6+",
+      "OC": "3",
+      "invulnerable_save": "5+"
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deadly Demise D3"
+    ],
+    "faction": "Nurgle's Gift (Aura)",
+    "unit_specific": [
+      {
+        "ability_name": "Hovering Death",
+        "description": "This model is eligible to shoot and declare a charge in a turn in which it Fell Back."
+      }
+    ]
+  },
+  "composition_and_wargear": {
+    "unit_composition": "This unit contains 1-2 Foetid Bloat-drones.",
+    "default_wargear_text": "Every model is equipped with: a plague probe.",
+    "wargear_options": [
+      "This model's plague probe can be replaced with 1 fleshmower.",
+      "If a model is not equipped with a fleshmower, it can be equipped with one of the following: 1 heavy blight launcher or 2 plaguespitters."
+    ],
+    "referenced_weapon_ids": [
+      "wpn_plague_probe",
+      "wpn_fleshmower",
+      "wpn_heavy_blight_launcher",
+      "wpn_plaguespitter"
+    ]
+  },
+  "leader": "This unit cannot be led by any Character and cannot lead other units."
+}

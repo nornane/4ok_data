@@ -1,0 +1,57 @@
+{
+  "id": "unit_dg_malignant_plaguecaster",
+  "unit_name": "Malignant Plaguecaster",
+  "keywords": [
+    "Faction: Death Guard",
+    "Character",
+    "Infantry",
+    "Psyker",
+    "Chaos",
+    "Nurgle",
+    "Malignant Plaguecaster"
+  ],
+  "stats_profile": [
+    {
+      "model_name": "Malignant Plaguecaster",
+      "M": "5\"",
+      "T": "6",
+      "SV": "3+",
+      "W": "4",
+      "LD": "6+",
+      "OC": "1"
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Leader"
+    ],
+    "faction": "Nurgle's Gift (Aura)",
+    "unit_specific": [
+      {
+        "ability_name": "Gift of Contagion (Psychic)",
+        "description": "While this model is leading a unit, each time a model in that unit makes an attack which targets a unit which is Afflicted, that attack has the [Sustained Hits 1] ability."
+      },
+      {
+        "ability_name": "Pestilent Fallout (Psychic)",
+        "description": "In your Shooting phase, after this model has shot, select one enemy Infantry unit hit by one or more of those attacks made with its Plague Wind. Until the end of your opponent's next turn, that unit is enfeebled. While a unit is enfeebled, subtract 2\" from the Move characteristic of models in that unit."
+      }
+    ]
+  },
+  "composition_and_wargear": {
+    "unit_composition": "This unit contains 1 Malignant Plaguecaster.",
+    "default_wargear_text": "This model is equipped with: a bolt pistol, a corrupted staff, and plague wind.",
+    "wargear_options": [],
+    "referenced_weapon_ids": [
+      "wpn_bolt_pistol",
+      "wpn_plague_wind",
+      "wpn_corrupted_staff"
+    ]
+  },
+  "leader": {
+    "can_lead_text": "This model can be attached to the following units:",
+    "can_lead_units": [
+      "Plague Marines",
+      "Poxwalkers"
+    ]
+  }
+}

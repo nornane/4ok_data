@@ -1,0 +1,52 @@
+{
+  "id": "unit_dg_deathshroud_terminators",
+  "unit_name": "Deathshroud Terminators",
+  "keywords": [
+    "Faction: Death Guard",
+    "Infantry",
+    "Terminator",
+    "Chaos",
+    "Nurgle",
+    "Deathshroud Terminators"
+  ],
+  "stats_profile": [
+    {
+      "model_name": "Deathshroud Terminator",
+      "M": "5\"",
+      "T": "7",
+      "SV": "2+",
+      "W": "4",
+      "LD": "6+",
+      "OC": "1",
+      "invulnerable_save": "4+"
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deep Strike"
+    ],
+    "faction": "Nurgle's Gift (Aura)",
+    "unit_specific": [
+      {
+        "ability_name": "Silent Bodyguard",
+        "description": "While a Character model is leading this unit, that Character model has the Feel No Pain 4+ ability."
+      },
+      {
+        "ability_name": "Death Approaches",
+        "description": "In your Movement phase, when this unit is set up on the battlefield using the Deep Strike ability, it can be set up anywhere on the battlefield that is more than 6\" horizontally away from all Afflicted enemy units, and more than 9\" horizontally away from any other enemy units."
+      }
+    ]
+  },
+  "composition_and_wargear": {
+    "unit_composition": "This unit contains 1 Deathshroud Champion and 2-5 Deathshroud Terminators.",
+    "default_wargear_text": "Every model is equipped with: a plaguespurt gauntlet and a manreaper.",
+    "wargear_options": [
+      "The Deathshroud Champion can be equipped with a second plaguespurt gauntlet."
+    ],
+    "referenced_weapon_ids": [
+      "wpn_plaguespurt_gauntlet",
+      "wpn_deathshroud_manreaper"
+    ]
+  },
+  "leader": "This unit can be led by a Lord of Contagion, Lord of Virulence, or Typhus."
+}

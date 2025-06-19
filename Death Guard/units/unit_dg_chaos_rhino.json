@@ -1,0 +1,56 @@
+{
+  "id": "unit_dg_chaos_rhino",
+  "unit_name": "Chaos Rhino",
+  "keywords": [
+    "Faction: Death Guard",
+    "Vehicle",
+    "Transport",
+    "Dedicated Transport",
+    "Chaos",
+    "Nurgle",
+    "Smoke",
+    "Rhino"
+  ],
+  "stats_profile": [
+    {
+      "model_name": "Chaos Rhino",
+      "M": "12\"",
+      "T": "9",
+      "SV": "3+",
+      "W": "10",
+      "LD": "6+",
+      "OC": "2"
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deadly Demise D3",
+      "Firing Deck 2"
+    ],
+    "faction": "Nurgle's Gift (Aura)",
+    "unit_specific": [
+      {
+        "ability_name": "Fire Support",
+        "description": "In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. Until the end of the phase, each time a friendly model that disembarked from this Transport this turn makes an attack that targets that unit, you can re-roll the Wound roll."
+      }
+    ]
+  },
+  "transport_capacity": {
+    "capacity_text": "This model has a transport capacity of 12 Death Guard Infantry models.",
+    "restrictions": "It cannot transport Terminator models."
+  },
+  "composition_and_wargear": {
+    "unit_composition": "This unit contains 1 Chaos Rhino.",
+    "default_wargear_text": "This model is equipped with: a combi-bolter and armoured tracks.",
+    "wargear_options": [
+      "This model can be equipped with 1 additional combi-bolter.",
+      "This model can be equipped with 1 havoc launcher."
+    ],
+    "referenced_weapon_ids": [
+      "wpn_combi_bolter",
+      "wpn_armoured_tracks",
+      "wpn_havoc_launcher"
+    ]
+  },
+  "leader": "This unit cannot be led by any Character and cannot lead other units."
+}

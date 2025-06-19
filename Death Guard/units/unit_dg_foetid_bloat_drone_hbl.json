@@ -1,0 +1,47 @@
+{
+  "id": "unit_dg_foetid_bloat_drone_hbl",
+  "unit_name": "Foetid Bloat-drone with heavy blight launcher",
+  "keywords": [
+    "Faction: Death Guard",
+    "Vehicle",
+    "Daemon",
+    "Fly",
+    "Chaos",
+    "Nurgle",
+    "Foetid Bloat-drone"
+  ],
+  "stats_profile": [
+    {
+      "model_name": "Foetid Bloat-drone with heavy blight launcher",
+      "M": "10\"",
+      "T": "9",
+      "SV": "3+",
+      "W": "10",
+      "LD": "6+",
+      "OC": "3",
+      "invulnerable_save": "5+"
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deadly Demise D3"
+    ],
+    "faction": "Nurgle's Gift (Aura)",
+    "unit_specific": [
+      {
+        "ability_name": "Explosive Blight",
+        "description": "In your Shooting phase, each time this model makes an attack that destroys an enemy unit, before removing the last model in that unit from play, roll a D6, adding 1 to the result if that unit is Afflicted; on a 5+, each enemy unit within 6\" of that model is Afflicted until the start of your next turn."
+      }
+    ]
+  },
+  "composition_and_wargear": {
+    "unit_composition": "This unit contains 1 Foetid Bloat-drone.",
+    "default_wargear_text": "This model is equipped with: a heavy blight launcher and a plague probe.",
+    "wargear_options": [],
+    "referenced_weapon_ids": [
+      "wpn_heavy_blight_launcher",
+      "wpn_plague_probe"
+    ]
+  },
+  "leader": "This unit cannot be led by any Character and cannot lead other units."
+}

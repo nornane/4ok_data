@@ -1,0 +1,60 @@
+{
+  "id": "unit_dg_typhus",
+  "unit_name": "Typhus",
+  "keywords": [
+    "Faction: Death Guard",
+    "Character",
+    "Epic Hero",
+    "Infantry",
+    "Terminator",
+    "Psyker",
+    "Chaos",
+    "Nurgle",
+    "Typhus"
+  ],
+  "stats_profile": [
+    {
+      "model_name": "Typhus",
+      "M": "5\"",
+      "T": "7",
+      "SV": "2+",
+      "W": "6",
+      "LD": "6+",
+      "OC": "1",
+      "invulnerable_save": "4+"
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deep Strike",
+      "Leader"
+    ],
+    "faction": "Nurgle's Gift (Aura)",
+    "unit_specific": [
+      {
+        "ability_name": "The Destroyer Hive",
+        "description": "While this model is leading a unit, each time a melee attack targets that unit, subtract 1 from the Hit roll."
+      },
+      {
+        "ability_name": "Eater Plague (Psychic)",
+        "description": "In your Shooting phase, you can select one enemy unit within 18\" of and visible to this Psyker (excluding units with the Lone Operative ability that are not part of an Attached unit and are not within 12\" of this Psyker and roll one D6: on a 1, this Psyker's unit suffers D3 mortal wounds; on a 2-5, that enemy unit suffers D6 mortal wounds; on a 6, that enemy unit suffers D3+3 mortal wounds."
+      }
+    ]
+  },
+  "composition_and_wargear": {
+    "unit_composition": "This unit contains 1 Typhus.",
+    "default_wargear_text": "This model is equipped with: Master-crafted manreaper.",
+    "wargear_options": [],
+    "referenced_weapon_ids": [
+      "wpn_master_crafted_manreaper"
+    ]
+  },
+  "leader": {
+    "can_lead_text": "This model can be attached to the following units:",
+    "can_lead_units": [
+      "Blightlord Terminators",
+      "Deathshroud Terminators",
+      "Poxwalkers"
+    ]
+  }
+}

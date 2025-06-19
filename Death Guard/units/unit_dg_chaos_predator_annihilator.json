@@ -1,0 +1,57 @@
+{
+  "id": "unit_dg_chaos_predator_annihilator",
+  "unit_name": "Chaos Predator Annihilator",
+  "keywords": [
+    "Faction: Death Guard",
+    "Vehicle",
+    "Chaos",
+    "Nurgle",
+    "Smoke",
+    "Predator Annihilator"
+  ],
+  "stats_profile": [
+    {
+      "model_name": "Chaos Predator Annihilator",
+      "M": "10\"",
+      "T": "10",
+      "SV": "3+",
+      "W": "11",
+      "LD": "6+",
+      "OC": "3"
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deadly Demise D3"
+    ],
+    "faction": "Nurgle's Gift (Aura)",
+    "unit_specific": [
+      {
+        "ability_name": "Metalophagic Infection",
+        "description": "In your Shooting phase, after this model has shot, select one enemy Monster or Vehicle unit hit by one or more of those attacks. Roll one D6, adding 1 to the result if that unit is Afflicted; on a 5+, that unit suffers D3 mortal wounds."
+      },
+      {
+        "ability_name": "Damaged: 1-4 Wounds Remaining",
+        "description": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+      }
+    ]
+  },
+  "composition_and_wargear": {
+    "unit_composition": "This unit contains 1 Chaos Predator Annihilator.",
+    "default_wargear_text": "This model is equipped with: a predator twin lascannon and armoured tracks.",
+    "wargear_options": [
+      "This model can be equipped with two sponson-mounted weapons, chosen from the following: 2 lascannons or 2 heavy bolters.",
+      "This model can be equipped with 1 havoc launcher.",
+      "This model can be equipped with 1 combi-weapon."
+    ],
+    "referenced_weapon_ids": [
+      "wpn_predator_twin_lascannon",
+      "wpn_armoured_tracks",
+      "wpn_lascannon",
+      "wpn_heavy_bolter",
+      "wpn_havoc_launcher",
+      "wpn_combi_weapon"
+    ]
+  },
+  "leader": "This unit cannot be led by any Character and cannot lead other units."
+}
